@@ -12,14 +12,22 @@ My code ideas always start on the nearest notepad I have to hand.  So after bull
 
 Rather than write the whole thing in one go I follow a step by step approach making sure that I get each bit, from reading the file, to splitting the lines up into a list of integers, return what I am expecting.
 
-One particular sticking point about the challenge is when I go through each item in a line_list, I would rather just select using my index_range, but I simply couldn't get it to set the index correctly afterwards without resorting to google.  After an hour I moved on.
+*One particular sticking point about the challenge is when I go through each item in a line_list, I would rather just select using my index_range, but I simply couldn't get it to set the index correctly afterwards without resorting to google.  After an hour I moved on.
 
 Testing was done with smaller example provided (triangle_test.txt)
 
-### Total time to write solution: 3hrs
+and a secondary example of how to avoid local maximum (triangle_test_2.txt)
+
+edit:
+
+On the second attempt of getting this right, I felt that to avoid the local maximum issue I should looking two steps ahead rather than one.  Looking at the four possibilities of the initial line and then its next children would produce.
+
+*This issue had to be solved to move on to the current solution, after a couple hours break I solved it almost immediately much to my delight.
+
+### Total time to write solution: 4.5hrs
 ---
 
-### Total time to run: 0.078 secs
+### Total time to run: Av 0.040 secs
 ---
 
 ### How to run
