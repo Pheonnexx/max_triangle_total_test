@@ -1,7 +1,7 @@
 # Max Triangle Total Test
 ---
 
-### Total for triangle.txt: 7319
+### Total for triangle.txt: 6541 (WRONG!)
 ---
 
 ### Outline of approach
@@ -20,11 +20,9 @@ and a secondary example of how to avoid local maximum (triangle_test_2.txt)
 
 edit:
 
-On the second attempt of getting this right, I felt that to avoid the local maximum issue I should looking two steps ahead rather than one.  Looking at the four possibilities of the initial line and then its next children would produce.
+On undertanding the problem further my next solution was built to consider two lines at the same time.  While of course this solves triangle_test_2 example on avoiding local maximum, for a triangle with a 100 lines it wouldnt work, and actually gave me a lower title.  This leads me onto the idea for my next solution, which would mean I would have to dynamically consider the lines according to whats there, with probably a bottom up, rather than a top down solution that I have here.  Unfortunately with my current level of knowledge I am unable to put together a solution for this, once the challenge is over I fully intend to go and understand this.
 
-*This issue had to be solved to move on to the current solution, after a couple hours break I solved it almost immediately much to my delight.
-
-### Total time to write solution: 4.5hrs
+### Total time to write solution: 6.5hrs
 ---
 
 ### Total time to run: Av 0.040 secs
